@@ -1,4 +1,4 @@
-###To Register a User
+### To Register a User
 _REQUEST_
 
 POST
@@ -12,7 +12,7 @@ POST
 }
 ```
 
-###To get the token
+### To get the token
 _REQUEST_
 
 POST
@@ -39,7 +39,7 @@ In header of all below requests add this
 X-Auth-Token : "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1ZGllbmNlIjoid2ViIiwiY3JlYXRlZCI6MTUwNDk4ODUyODM2NiwiZXhwIjoxNTA1NTkzMzI4fQ.YgsC5rRM2-JMuSNqNbNNoBWxrvNJ9WZLSbdzCH7CpmKdfyh8YWcvfubArVWueH84LhaReQEEX0FDPEU4x4Wvyg"
 ```
 
-###To Create a Post
+### To Create a Post
 POST
 
 `http://localhost:3030/api/post`
@@ -52,7 +52,7 @@ POST
 }
 ```
 
-###To Create a Comment
+### To Create a Comment
 POST
 `http://localhost:3030/api/post/comment`
 ```json
@@ -64,7 +64,7 @@ POST
 }
 ```
 
-###To Edit a Post
+### To Edit a Post
 PUT
 `http://localhost:3030/api/post/59b4461f93603c08978e80a7`
 ```json
@@ -76,7 +76,7 @@ PUT
 }
 ```
 
-###To Edit a Comment
+### To Edit a Comment
 PUT
 `http://localhost:3030/api/post/comment/59b4461f93603c08978e80a7-0`
 ```json
@@ -87,7 +87,7 @@ PUT
 	"postId":"59b4461f93603c08978e80a7"
 }
 ```
-###To See the list of Users
+### To See the list of Users
 _REQUEST_
 
 GET
@@ -117,7 +117,7 @@ _RESPONSE_
 ]
 ```
 
-###To see the list of posts
+### To see the list of posts
 _REQUEST_ 
 
 GET
